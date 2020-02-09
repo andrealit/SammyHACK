@@ -13,7 +13,7 @@
 		F49C455123EF67C100EAD3C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49C454F23EF67C100EAD3C0 /* Main.storyboard */; };
 		F49C455423EF67C100EAD3C0 /* SammyHACK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F49C455223EF67C100EAD3C0 /* SammyHACK.xcdatamodeld */; };
 		F49C455623EF67C300EAD3C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49C455523EF67C300EAD3C0 /* Assets.xcassets */; };
-		F49C455923EF67C300EAD3C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49C455723EF67C300EAD3C0 /* LaunchScreen.storyboard */; };
+		F49C456123EF6FCC00EAD3C0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49C456023EF6FCC00EAD3C0 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		F49C455023EF67C100EAD3C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F49C455323EF67C100EAD3C0 /* SammyHACK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SammyHACK.xcdatamodel; sourceTree = "<group>"; };
 		F49C455523EF67C300EAD3C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F49C455823EF67C300EAD3C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49C455A23EF67C300EAD3C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49C456023EF6FCC00EAD3C0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +58,12 @@
 		F49C454823EF67C100EAD3C0 /* SammyHACK */ = {
 			isa = PBXGroup;
 			children = (
+				F49C456023EF6FCC00EAD3C0 /* Launch Screen.storyboard */,
 				F49C454923EF67C100EAD3C0 /* AppDelegate.swift */,
 				F49C454B23EF67C100EAD3C0 /* SceneDelegate.swift */,
 				F49C454D23EF67C100EAD3C0 /* ViewController.swift */,
 				F49C454F23EF67C100EAD3C0 /* Main.storyboard */,
 				F49C455523EF67C300EAD3C0 /* Assets.xcassets */,
-				F49C455723EF67C300EAD3C0 /* LaunchScreen.storyboard */,
 				F49C455A23EF67C300EAD3C0 /* Info.plist */,
 				F49C455223EF67C100EAD3C0 /* SammyHACK.xcdatamodeld */,
 			);
@@ -128,8 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49C455923EF67C300EAD3C0 /* LaunchScreen.storyboard in Resources */,
 				F49C455623EF67C300EAD3C0 /* Assets.xcassets in Resources */,
+				F49C456123EF6FCC00EAD3C0 /* Launch Screen.storyboard in Resources */,
 				F49C455123EF67C100EAD3C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,14 +157,6 @@
 				F49C455023EF67C100EAD3C0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F49C455723EF67C300EAD3C0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F49C455823EF67C300EAD3C0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

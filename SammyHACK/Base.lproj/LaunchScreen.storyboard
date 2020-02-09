@@ -1,25 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GAP-TO-pRk">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="tnO-w9-lYb">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="GAP-TO-pRk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gUt-SS-I4W">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" ambiguous="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qwn-2R-83X">
+                                <rect key="frame" x="195" y="322" width="507" height="2"/>
+                            </progressView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SAMMY-ICON" translatesAutoresizingMaskIntoConstraints="NO" id="JJJ-rR-hUz">
+                                <rect key="frame" x="328" y="143" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="JJJ-rR-hUz" firstAttribute="leading" secondItem="6WI-m2-WHN" secondAttribute="leading" constant="284" id="LiK-C4-vk4"/>
+                            <constraint firstItem="6WI-m2-WHN" firstAttribute="trailing" secondItem="JJJ-rR-hUz" secondAttribute="trailing" constant="284" id="R8S-F8-ZdN"/>
+                            <constraint firstItem="qwn-2R-83X" firstAttribute="top" secondItem="JJJ-rR-hUz" secondAttribute="bottom" constant="51" id="SV1-Zg-ude"/>
+                            <constraint firstItem="JJJ-rR-hUz" firstAttribute="centerY" secondItem="gUt-SS-I4W" secondAttribute="centerY" id="WxD-vw-58K"/>
+                            <constraint firstItem="JJJ-rR-hUz" firstAttribute="top" secondItem="6WI-m2-WHN" secondAttribute="top" constant="143" id="Zi7-LI-3m8"/>
+                            <constraint firstItem="qwn-2R-83X" firstAttribute="centerX" secondItem="gUt-SS-I4W" secondAttribute="centerX" id="hUe-O7-tWa"/>
+                            <constraint firstItem="JJJ-rR-hUz" firstAttribute="centerX" secondItem="gUt-SS-I4W" secondAttribute="centerX" id="t1w-qv-bbx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6WI-m2-WHN"/>
                     </view>
+                    <navigationItem key="navigationItem" id="UdG-8L-fhv"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="49s-3a-vaB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="216" y="419"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SAMMY-ICON" width="2294" height="1590"/>
+    </resources>
 </document>
