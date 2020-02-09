@@ -345,7 +345,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toystore" translatesAutoresizingMaskIntoConstraints="NO" id="XXB-m9-veq">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toystore (2)" translatesAutoresizingMaskIntoConstraints="NO" id="XXB-m9-veq">
                                 <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -632,8 +632,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Money in the pocket: $7" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rhd-gu-8oV">
-                                <rect key="frame" x="669" y="101" width="193" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sammy has: $7" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rhd-gu-8oV">
+                                <rect key="frame" x="710" y="70" width="122" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -646,7 +646,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jt3-Nx-T7U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1043" y="4404"/>
+            <point key="canvasLocation" x="-1043.3035714285713" y="4402.898550724638"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3rD-0j-mdw">
@@ -727,8 +727,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Money in the pocket: $9" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="om2-D0-3Rm">
-                                <rect key="frame" x="683" y="107" width="193" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sammy has: $9" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="om2-D0-3Rm">
+                                <rect key="frame" x="693" y="76" width="139" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -756,14 +756,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sammy is in the toy store." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0jT-L5-RXE">
-                                <rect key="frame" x="329" y="264" width="242" height="27"/>
+                                <rect key="frame" x="344" y="20" width="252" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ULX-8X-zEP">
-                                <rect key="frame" x="110" y="271" width="211" height="96"/>
+                                <rect key="frame" x="110" y="280" width="211" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sammy remembers the list mommy assigns, and Sammy go to the gocery store."/>
                                 <connections>
@@ -771,27 +771,27 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="LWm-Ay-c8d">
-                                <rect key="frame" x="385" y="304" width="186" height="30"/>
+                                <rect key="frame" x="377" y="313" width="186" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sammy uses $20 dollars to buy a skateboard."/>
                                 <connections>
                                     <segue destination="1X8-ib-CQa" kind="show" id="LsW-Bx-Agy"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Money in the pocket: $20" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Szc-Sp-WMA">
-                                <rect key="frame" x="649" y="69" width="193" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SkateBoard (1)" translatesAutoresizingMaskIntoConstraints="NO" id="Meq-3S-QJI">
-                                <rect key="frame" x="100" y="33" width="513" height="262"/>
+                                <rect key="frame" x="79" y="43" width="513" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YOUTH-SAM-left-MIDCLOSE" translatesAutoresizingMaskIntoConstraints="NO" id="vKb-tO-hSs">
                                 <rect key="frame" x="487" y="168" width="516" height="343"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sammy has: $20" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Szc-Sp-WMA">
+                                <rect key="frame" x="692" y="72" width="140" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ca2-nN-YOY"/>
@@ -835,16 +835,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YOUTH-SAM-right-CLOSE" translatesAutoresizingMaskIntoConstraints="NO" id="32d-Zi-VIx">
-                                <rect key="frame" x="-270" y="20" width="810" height="430"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leftovers" translatesAutoresizingMaskIntoConstraints="NO" id="FiJ-Jl-Gxx">
+                                <rect key="frame" x="19" y="-76" width="916" height="488"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YOUTH-SAM-left" translatesAutoresizingMaskIntoConstraints="NO" id="O2z-iS-aXK">
                                 <rect key="frame" x="512" y="28" width="423" height="232"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leftovers" translatesAutoresizingMaskIntoConstraints="NO" id="FiJ-Jl-Gxx">
-                                <rect key="frame" x="19" y="-76" width="916" height="488"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YOUTH-SAM-right-CLOSE" translatesAutoresizingMaskIntoConstraints="NO" id="32d-Zi-VIx">
+                                <rect key="frame" x="-235" y="45" width="810" height="430"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -900,10 +900,9 @@
         <image name="backgroundNIGHT" width="8000" height="4498"/>
         <image name="shelf" width="600" height="338"/>
         <image name="table2" width="600" height="338"/>
-        <image name="toystore" width="600" height="324"/>
+        <image name="toystore (2)" width="8333" height="4500"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="DHa-LP-AWB"/>
         <segue reference="DY1-IB-6Zd"/>
         <segue reference="ucb-nm-Jei"/>
         <segue reference="sFu-ht-vCk"/>
