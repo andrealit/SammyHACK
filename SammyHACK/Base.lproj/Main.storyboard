@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="1cm-5r-lzI">
             <objects>
-                <viewController id="vdj-5L-KK3" sceneMemberID="viewController">
+                <viewController id="vdj-5L-KK3" customClass="ViewController" customModule="SammyHACK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Bh-Fn-kG3">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -18,7 +18,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACi-S9-WOe">
                                 <rect key="frame" x="44" y="128" width="295" height="169"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="5-6 old" image="Nest"/>
+                                <state key="normal" title="Younger" image="Nest"/>
                                 <connections>
                                     <segue destination="31J-32-ZrB" kind="show" id="xx1-5d-J8W"/>
                                 </connections>
@@ -26,12 +26,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBp-3C-qo6">
                                 <rect key="frame" x="300" y="123" width="297" height="171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Nest"/>
+                                <state key="normal" title="Adult" image="Nest"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alz-Is-U0P">
                                 <rect key="frame" x="539" y="125" width="306" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Nest"/>
+                                <state key="normal" title="Older Adult" image="Nest"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Youth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKk-xU-RRk">
                                 <rect key="frame" x="164" y="276" width="54" height="23"/>
@@ -54,11 +54,43 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISA-ZY-zpe">
+                                <rect key="frame" x="360" y="46" width="15" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="play.fill" catalog="system">
+                                    <color key="titleColor" red="0.62160760159999995" green="0.81853473190000003" blue="0.88236409429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="PlayB:" destination="vdj-5L-KK3" eventType="touchUpInside" id="zcu-8t-IKf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rv0-th-DXm">
+                                <rect key="frame" x="438" y="46" width="15" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="pause.fill" catalog="system">
+                                    <color key="titleColor" red="0.62160760159999995" green="0.81853473190000003" blue="0.88236409429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="PauseB:" destination="vdj-5L-KK3" eventType="touchUpInside" id="LpS-Gr-q4o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLB-Rd-y94">
+                                <rect key="frame" x="511" y="46" width="25" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="backward.fill" catalog="system">
+                                    <color key="titleColor" red="0.62160760159999995" green="0.81853473190000003" blue="0.88236409429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="RewindB:" destination="vdj-5L-KK3" eventType="touchUpInside" id="5TM-8W-bpJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="TBb-uH-ifi"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="UjL-11-cZc"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KKK-aj-u9m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -930,15 +962,18 @@
         <image name="backgroundHOME" width="4557" height="3132"/>
         <image name="backgroundMORNING" width="7994" height="4500"/>
         <image name="backgroundNIGHT" width="8000" height="4498"/>
+        <image name="backward.fill" catalog="system" width="64" height="38"/>
+        <image name="pause.fill" catalog="system" width="58" height="64"/>
+        <image name="play.fill" catalog="system" width="58" height="64"/>
         <image name="shelf" width="600" height="338"/>
         <image name="table2" width="600" height="338"/>
         <image name="toystore (3)" width="600" height="324"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="DY1-IB-6Zd"/>
-        <segue reference="ucb-nm-Jei"/>
+        <segue reference="QSS-xe-2zz"/>
         <segue reference="vSz-cI-fFW"/>
-        <segue reference="OwN-xf-PZg"/>
+        <segue reference="xx1-5d-J8W"/>
         <segue reference="pT6-ro-uCY"/>
         <segue reference="dAZ-4D-QVb"/>
     </inferredMetricsTieBreakers>

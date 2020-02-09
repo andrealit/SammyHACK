@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F42250A623F009C400CB64F0 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F42250A223F0061E00CB64F0 /* sample.mp3 */; };
 		F49C454A23EF67C100EAD3C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49C454923EF67C100EAD3C0 /* AppDelegate.swift */; };
 		F49C454C23EF67C100EAD3C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49C454B23EF67C100EAD3C0 /* SceneDelegate.swift */; };
 		F49C454E23EF67C100EAD3C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49C454D23EF67C100EAD3C0 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F42250A223F0061E00CB64F0 /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
 		F49C454623EF67C100EAD3C0 /* SammyHACK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SammyHACK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49C454923EF67C100EAD3C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F49C454B23EF67C100EAD3C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F422509F23F0060000CB64F0 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				F42250A223F0061E00CB64F0 /* sample.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		F49C453D23EF67C100EAD3C0 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		F49C454823EF67C100EAD3C0 /* SammyHACK */ = {
 			isa = PBXGroup;
 			children = (
+				F422509F23F0060000CB64F0 /* Music */,
 				F49C456023EF6FCC00EAD3C0 /* Launch Screen.storyboard */,
 				F49C454923EF67C100EAD3C0 /* AppDelegate.swift */,
 				F49C454B23EF67C100EAD3C0 /* SceneDelegate.swift */,
@@ -128,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42250A623F009C400CB64F0 /* sample.mp3 in Resources */,
 				F49C455623EF67C300EAD3C0 /* Assets.xcassets in Resources */,
 				F49C456123EF6FCC00EAD3C0 /* Launch Screen.storyboard in Resources */,
 				F49C455123EF67C100EAD3C0 /* Main.storyboard in Resources */,
